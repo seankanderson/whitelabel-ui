@@ -7,6 +7,7 @@ import { OrderHistoryComponent } from './order-history/order-history.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import { MenuEditorComponent } from './menu-editor/menu-editor.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const  routes: Routes = [
   {path: '', component: LandingPageComponent },
@@ -15,7 +16,8 @@ const  routes: Routes = [
   {path: 'order-history', component: OrderHistoryComponent },
   {path: 'order-details', component: OrderDetailsComponent },
   {path: 'menu-editor', component: MenuEditorComponent },
-  {path: 'admin-panel', component: AdminPanelComponent }
+  {path: 'admin-panel', component: AdminPanelComponent },
+  {path: 'user-profile', component: UserProfileComponent }
 ];
 
 @NgModule({
