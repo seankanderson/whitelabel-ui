@@ -11,6 +11,7 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
+import { MenuBrowserComponent } from './menu-browser/menu-browser.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AuthenticationComponent } from './authentication/authentication.compone
     OrderHistoryComponent,
     AdminPanelComponent,
     UserProfileComponent,
-    AuthenticationComponent
+    AuthenticationComponent,
+    MenuBrowserComponent
   ],
   imports: [
     BrowserModule,
